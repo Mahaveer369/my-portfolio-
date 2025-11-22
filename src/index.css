@@ -1,0 +1,72 @@
+:root {
+  --color-bg: #0A0A0A;
+  --color-accent: #00FFFF;
+  /* Electric Blue/Cyan */
+  --color-text: #e2e8f0;
+  /* Soft White/Grey */
+  --color-text-muted: #94a3b8;
+  /* Muted Grey */
+  --color-secondary: #111111;
+  /* Carbon Fiber Dark */
+  --font-heading: 'Montserrat', 'Poppins', sans-serif;
+  --font-body: 'Inter', 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
