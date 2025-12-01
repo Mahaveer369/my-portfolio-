@@ -20,7 +20,7 @@ const Hero = () => {
                         textShadow: '0 0 30px rgba(79, 172, 254, 0.3)'
                     }}
                 >
-                    Mahaveer Tirumalasetty
+                    MAHAVEER TIRUMALASETTY
                 </motion.h1>
                 <motion.p
                     initial={{ opacity: 0, y: 10 }}
@@ -28,7 +28,7 @@ const Hero = () => {
                     transition={{ delay: 0.3, duration: 0.5 }}
                     style={{ fontSize: '1.5rem', color: 'rgba(255, 255, 255, 0.8)', marginBottom: '2rem' }}
                 >
-                    Software Engineer | Gen AI | Agentic AI
+                    SOFTWARE ENGINEER — GEN AI — AGENTIC AI
                 </motion.p>
                 <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
                     <motion.a

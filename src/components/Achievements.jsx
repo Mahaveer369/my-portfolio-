@@ -6,43 +6,51 @@ import { FaTrophy, FaMedal, FaUserTie } from 'react-icons/fa';
 const achievementsData = [
     {
         id: 1,
-        title: 'AI Forgue Genius Top 7',
-        subtitle: 'National Level Competition',
+        title: 'IEEE Robotics & Automation',
+        subtitle: 'Winner / Runner Up',
         icon: <FaTrophy />,
-        description: 'Secured top 7 position in a national level AI hackathon, showcasing advanced problem-solving skills in generative AI.',
+        description: 'Recognized for excellence in robotics and automation competition.',
         date: '2024'
     },
     {
         id: 2,
-        title: 'Intel GENAI 24 Hackathon',
-        subtitle: 'Winner/Runner-Up',
+        title: 'AI Forgue Genius Top 7',
+        subtitle: 'National Level Competition',
         icon: <FaMedal />,
-        description: 'Developed an innovative multimodal RAG solution using Intel OpenVINO toolkit, recognized for technical excellence.',
+        description: 'Secured top 7 position in a national level AI hackathon.',
         date: '2024'
     },
     {
         id: 3,
-        title: 'IEEE Robotics Competition',
-        subtitle: 'Finalist',
+        title: 'Intel GENAI 24 Hackathon',
+        subtitle: 'National Level',
         icon: <FaMedal />,
-        description: 'Designed autonomous navigation algorithms for mobile robots, demonstrating proficiency in robotics and control systems.',
-        date: '2023'
+        description: 'Participated and performed in the National Level Intel GENAI 24 Hackathon.',
+        date: '2024'
     },
     {
         id: 4,
-        title: 'GEN AI R&D Intern',
-        subtitle: 'Diebold Nixdorf',
-        icon: <FaUserTie />,
-        description: 'Led research initiatives on agentic workflows and large language model optimization for enterprise banking solutions.',
-        date: '2024 - Present'
-    },
-    {
-        id: 5,
         title: 'Machine Learning Lead',
         subtitle: 'Microsoft Learn Student Club',
         icon: <FaUserTie />,
-        description: 'Mentored 50+ students in ML concepts and organized workshops on Azure AI services.',
-        date: '2023 - 2024'
+        description: 'Led machine learning initiatives and community engagement.',
+        date: 'Aug 2024 – Jan 2025'
+    },
+    {
+        id: 5,
+        title: 'Research Student',
+        subtitle: 'International Research Centre (MCW)',
+        icon: <FaUserTie />,
+        description: 'Collaborated on international research projects in deep learning.',
+        date: 'Feb 2024 – Dec 2024'
+    },
+    {
+        id: 6,
+        title: 'Student Exchange Program',
+        subtitle: 'India to Malaysia',
+        icon: <FaUserTie />,
+        description: 'Selected for academic exchange program (6th Semester).',
+        date: 'Jan 2025 – May 2025'
     }
 ];
 

@@ -20,20 +20,26 @@ const educationData = [
   {
     year: 'Apr 2022 – Jan 2026',
     title: 'B.Tech in AI & ML',
-    subtitle: 'Kalasalingam Academy of Research and Education',
-    description: 'Specialization in Deep Learning & Gen AI. Core coursework: Transformer Architectures, NLP, Computer Vision, Reinforcement Learning.'
+    subtitle: 'Kalasalingam Academy of Research and Education, Tamil Nadu',
+    description: 'Specialization in Artificial Intelligence & Machine Learning.'
   },
   {
     year: 'Jan 2025 – May 2025',
-    title: 'Semester Exchange Program',
+    title: 'B.Tech: Computer Science (Exchange Program)',
     subtitle: 'INTI International University, Malaysia',
-    description: 'International exposure focusing on advanced AI research and cross-cultural collaboration.'
+    description: 'GPA: 9.27%. International exposure focusing on advanced AI research and cross-cultural collaboration.'
   },
   {
-    year: '2020 - 2022',
-    title: 'Intermediate (MPC)',
-    subtitle: 'Narayana Junior College',
-    description: 'Foundation in Mathematics, Physics, and Chemistry. Secured top percentile in state-level entrance exams.'
+    year: 'Apr 2020 – Jan 2022',
+    title: 'High School Diploma',
+    subtitle: 'VJ Junior College',
+    description: 'GPA: 92.2%.'
+  },
+  {
+    year: 'Jan 2018 – Jan 2020',
+    title: 'Secondary Schooling',
+    subtitle: 'Universal High School, Parchur',
+    description: 'GPA: 90%.'
   }
 ];
 
@@ -41,22 +47,22 @@ const educationData = [
 // Add your work experience here.
 const experienceData = [
   {
-    year: '2024 - Present',
+    year: 'Jan 2025 – Aug 2025',
     title: 'GEN AI R&D Intern',
     subtitle: 'Diebold Nixdorf',
-    description: 'Designed and implemented robust RAG pipelines using LangChain, resulting in a 40% increase in domain-specific answer accuracy for the internal knowledge base. Led research on agentic workflows for automated customer support, reducing resolution time by 25%.'
+    description: 'Developed Multimodal RAG system with innovative integration of voice, video, and text retrieval. Enabled seamless cross-model retrieval for complex queries. Worked with Prometheus for metrics and PostgreSQL for DB management. Focused on Context Engineering and token optimization.'
   },
   {
-    year: '2023 - 2024',
+    year: 'Aug 2024 – Jan 2025',
     title: 'Machine Learning Lead',
     subtitle: 'Microsoft Learn Student Club',
-    description: 'Mentored 50+ students in ML concepts, organizing workshops on Azure AI services. Facilitated hands-on sessions on deploying models to the cloud, enhancing student engagement by 30%.'
+    description: 'Organized tech events and built sophisticated RAG models using open source frameworks. Led machine learning initiatives and community engagement.'
   },
   {
-    year: '2023',
+    year: 'Feb 2024 – Dec 2024',
     title: 'Research Student',
     subtitle: 'International Research Centre (MCW)',
-    description: 'Conducted research on multimodal learning algorithms, contributing to a paper on efficient vision-language models. Optimized data preprocessing pipelines for large-scale image datasets, improving training speed by 15%.'
+    description: 'Worked on CNN algorithms (VGG16, VGG19, RESNET, INCEPTION NET) and Transformer architectures (BERT, GPT). Gained expertise in deep learning algorithms, parameter fine-tuning, and GANs. Streamlined research processes for data gathering.'
   }
 ];
 
@@ -66,27 +72,47 @@ const skillsData = [
   {
     category: 'Languages',
     icon: <FaCode />,
-    skills: ['Python', 'JavaScript', 'C++', 'SQL']
+    skills: ['Python', 'JavaScript', 'HTML', 'CSS']
   },
   {
-    category: 'AI & ML Frameworks',
+    category: 'AI/ML Frameworks',
     icon: <FaBrain />,
-    skills: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'Keras', 'OpenCV']
+    skills: ['TensorFlow', 'PyTorch', 'scikit-learn']
   },
   {
-    category: 'Gen AI & LLMs',
+    category: 'GEN AI Frameworks',
     icon: <FaBrain />,
-    skills: ['LangChain', 'LlamaIndex', 'RAG', 'HuggingFace', 'OpenAI API', 'Gemini API']
+    skills: ['LangChain', 'LangSmith', 'LangServe', 'LlamaIndex', 'PhiData']
   },
   {
-    category: 'Web & Cloud',
+    category: 'Cloud & DevOps',
     icon: <FaCloud />,
-    skills: ['React', 'Node.js', 'AWS', 'Azure', 'Flask', 'FastAPI']
+    skills: ['AWS', 'Docker', 'CI/CD']
   },
   {
-    category: 'Tools & DevOps',
+    category: 'Technical Specializations',
+    icon: <FaUserSecret />,
+    skills: ['Machine Learning', 'Deep Learning', 'NLP', 'Agentic AI', 'Prompting', 'Context Engineering']
+  },
+  {
+    category: 'Advanced AI',
+    icon: <FaBrain />,
+    skills: ['LLM & LVMs', 'Multimodal RAG', 'Cross-modal Retrieval', 'GANs', 'Transformer Architecture']
+  },
+  {
+    category: 'Backend',
     icon: <FaTools />,
-    skills: ['Docker', 'Git', 'Linux', 'PostgreSQL', 'MongoDB']
+    skills: ['Flask', 'FastAPI', 'Django']
+  },
+  {
+    category: 'Databases',
+    icon: <FaTools />,
+    skills: ['PostgreSQL', 'MySQL', 'MongoDB']
+  },
+  {
+    category: 'Tools',
+    icon: <FaTools />,
+    skills: ['Prometheus', 'VS Code', 'Jupyter Notebooks']
   }
 ];
 
@@ -161,8 +187,7 @@ function App() {
               </h3>
 
               <p style={{ fontSize: '1.15rem', lineHeight: '1.8', color: '#e0e0e0' }}>
-                I specialize in building <strong style={{ color: '#FF2800' }}>Agentic AI</strong> systems and <strong style={{ color: '#FF2800' }}>High-Performance Applications</strong>.
-                My focus is on creating intelligent, scalable solutions that deliver real-world impact with speed and precision.
+                Motivated and results-oriented individual with a strong interest in learning and applying Artificial Intelligence (AI) and Machine Learning (ML) technologies. Seeking an opportunity to contribute to a team of experienced engineers and expand knowledge in this rapidly growing field. Equipped with a solid foundation in computer science and programming, prepared to tackle the challenges and seize the opportunities presented by AI/ML and GEN AI.
               </p>
 
               <div style={{ marginTop: '30px' }}>
@@ -241,9 +266,9 @@ function App() {
               <a href="mailto:mahaveer96399@gmail.com" style={{ color: '#fff', fontSize: '1.3rem', textDecoration: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '15px', padding: '15px', background: 'rgba(255, 40, 0, 0.1)', borderRadius: '50px', border: '1px solid #FF2800', transition: 'all 0.3s ease' }}>
                 <FaEnvelope style={{ color: '#FF2800' }} /> mahaveer96399@gmail.com
               </a>
-              <div style={{ display: 'flex', gap: '20px', fontSize: '2rem', marginTop: '10px', justifyContent: 'center' }}>
+              <div style={{ display: 'flex', gap: '20px', fontSize: '2rem', marginTop: '10px', justifyContent: 'center', position: 'relative', zIndex: 20 }}>
                 <a href="https://linkedin.com/in/mahaveer-tirumalasetty" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', opacity: 0.8, transition: 'all 0.3s ease' }}><FaLinkedin /></a>
-                <a href="https://github.com/Mahaveer36" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', opacity: 0.8, transition: 'all 0.3s ease' }}><FaGithub /></a>
+                <a href="https://github.com/Mahaveer369" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', opacity: 0.8, transition: 'all 0.3s ease' }}><FaGithub /></a>
               </div>
             </div>
           </GlassCard>
